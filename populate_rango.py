@@ -19,29 +19,29 @@ def populate():
          'views':128},
         {'title': 'How to Think like a Computer Scientist',
           'url':'http://www.greenteapress.com/thinkpython',
-          'views':64},
+          'views':8},
         {'title': 'Learn Python in 10 Minutes',
          'url':'http://www.korokithakis.net/tutorials/python/',
-         'views':32}]
+         'views':64}]
     
     django_pages = [
         {'title':'Official Django Tutorial',
          'url':'http://docs.djangoproject.com/en/2.1/intro/tutorial01/',
-         'views':16},
+         'views':4},
         {'title':'Django Rocks',
          'url':'http://www.djangorocks.com/',
-         'views':8},
+         'views':2},
         {'title':'How to Tango with Django',
          'url':'http://www.tangowithdjango.com/',
-         'views':4}]
+         'views':32}]
     
     other_pages = [
         {'title':'Bottle',
          'url':'http://bottlepy.org/docs/dev/',
-         'views':2},
+         'views':1},
         {'title':'Flask',
          'url':'http://flask.pocoo.org',
-         'views':1}]
+         'views':16}]
     
     cats = {'Python': {'pages': python_pages, 'views': 128, 'likes': 64},
             'Django': {'pages': django_pages, 'views': 64, 'likes': 32},
