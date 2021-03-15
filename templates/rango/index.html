@@ -10,7 +10,12 @@
 {% block body_block %}
 	<h1>Rango says...</h1>
 	<div>
+	<!-- since login(request, user), user variable can be accessed -->
+	{% if user.is_authenticated %}
+		howdy {{ user.username }}!
+	{% else %}
 		hey there partner! <br />
+	{% endif %}
 		<strong>{{ boldmessage }}</strong><br />
 	</div>
 		
