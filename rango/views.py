@@ -31,9 +31,9 @@ def index(request):
     visitor_cookie_handler(request)
     
     # Obtain our Response object early so we can add cookie information.
-    response = render(request, 'rango/index.html', context=context_dict)
+    return render(request, 'rango/index.html', context=context_dict)
       
-    return response
+
 
 def about(request):
     context_dict = {}

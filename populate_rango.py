@@ -18,7 +18,7 @@ def populate():
          'url':'http://docs.python.org/3/tutorial/',
          'views':128},
         {'title': 'How to Think like a Computer Scientist',
-          'url':'http://www.greenteapress.com/thinkpython',
+          'url':'http://www.greenteapress.com/thinkpython/',
           'views':8},
         {'title': 'Learn Python in 10 Minutes',
          'url':'http://www.korokithakis.net/tutorials/python/',
